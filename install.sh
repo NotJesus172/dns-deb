@@ -4,3 +4,7 @@ sudo apt-get install -y nala
 sudo nala update
 sudo nala upgrade -y
 sudo nala install -y curl
+
+sudo ./config/pihole.sh
+
+sudo ./config/setPasswd.sh
