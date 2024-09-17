@@ -14,6 +14,6 @@ If this is not your intention the I do not reccoment or suggest running this set
         - If you want to do so, either before or after the package name, add the -y flair.
         - Either run "sudo apt-get install git -y" or "sudo apt-get install -y git" instead.
 
-    3. 
+    3. You'll have to clone the github repository to your system by running "sudo git clone https://github.com/NotJesus172/dns-deb"
 
     4. 
