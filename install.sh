@@ -23,10 +23,13 @@ else
 fi
 
 #   Install and configure pihole:
+sudo chmod +x ./config/pihole.sh
 sudo ./config/pihole.sh
 
 #   Set the fresh pihole password:
+sudo chmod +x ./config/setPasswd.sh
 sudo ./config/setPasswd.sh
 
 #   Install and configure unbound:
+sudo chmod +x ./config/unbound.sh
 sudo ./config/unbound.sh

@@ -17,4 +17,4 @@ If this is not your intention the I do not reccoment or suggest running this set
 
     3. You'll have to clone the github repository to your system by running "sudo git clone https://github.com/NotJesus172/dns-deb"
 
-    4. 
+    4. Change to the new dns-deb directory. Run "cd dns-deb"
