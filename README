@@ -23,3 +23,16 @@ If this is not your intention the I do not reccoment or suggest running this set
         - Don't worry about anything else, the script will take care of setting execute permissions for the other scripts in the repository.
 
     6. Run the script! Run "sudo ./install.sh"
+
+
+
+Handy dandy copypasta script action over here for everything mentioned above, assuming you know how to make/write and execute one:)
+
+#!/bin/bash
+sudo apt-get update
+sudo apt upgrade -y
+sudo apt-get install -y git
+sudo git clone https://github.com/NotJesus172/dns-deb
+cd dns-deb
+sudo chmod +x install.sh
+sudo ./install.sh
