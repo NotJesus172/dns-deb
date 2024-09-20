@@ -14,6 +14,7 @@ sudo chmod +x ./resetPasswd.sh
 sudo chmod +x ./unbound.sh
 sudo chmod +x ./gravity-sync.sh
 #   Pihole install prompt:
+clear
 echo "Would you like to begin the pihole installation? (y/n)"
 read piholeState
 if [[ $piholeState == "y" || $piholeState == "Y" ]]; then
@@ -25,7 +26,8 @@ if [[ $piholeState == "y" || $piholeState == "Y" ]]; then
 else
     exit 1
 fi
-#   Unbound install prompt
+#   Unbound install prompt:
+clear
 echo "Would you like to begin the unbound installation? (y/n)"
 read unboundState
 if [[ $unboundState == "y" || $unboundState == "Y" ]]; then
@@ -39,6 +41,7 @@ else
     sleep 3
 fi
 #   Gravity-sync install prompt:
+clear
 echo "Would you like to install gravity-sync? (y/n)"
 read gravityState
 if [[ $gravityState == "y" || $gravityState == "Y" ]]; then
