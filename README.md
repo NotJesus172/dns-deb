@@ -29,8 +29,7 @@ If this is not your intention the I do not reccoment or suggest running this set
 Handy dandy copypasta script action over here for everything mentioned above, assuming you know how to make/write and execute one:)
 
 #!/bin/bash
-sudo apt-get update
-sudo apt upgrade -y
+sudo apt-get update && sudo apt upgrade -y
 sudo apt-get install -y git
 sudo git clone https://github.com/NotJesus172/dns-deb
 cd dns-deb
