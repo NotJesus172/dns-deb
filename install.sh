@@ -1,11 +1,10 @@
 #!/bin/bash
 
 #   Install nala:
-sudo apt-get update
+sudo apt-get update && sudo apt-get upgrade -y
 sudo apt-get install -y nala
 #   Update the system:
-sudo nala update
-sudo nala upgrade -y
+sudo nala update && sudo nala upgrade -y
 #   Install curl:
 sudo nala install -y curl
 #   Make all nested scripts executable:
