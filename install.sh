@@ -7,11 +7,6 @@ sudo apt-get install -y nala
 sudo nala update && sudo nala upgrade -y
 #   Install curl:
 sudo nala install -y curl
-#   Make all nested scripts executable:
-sudo chmod +x ./pihole.sh
-sudo chmod +x ./resetPasswd.sh
-sudo chmod +x ./unbound.sh
-sudo chmod +x ./gravity-sync.sh
 #   Pihole install prompt:
 clear
 echo "Would you like to begin the pihole installation? (y/n)"
