@@ -5,9 +5,9 @@ If your intention is to convert your fresh Debian netinst install into a home DN
 If this is not your intention the I do not reccoment or suggest running this setup script.
 
                                                             Instructions
-                (If you already have the repository on your local drive, navigate to it and skip to step 5.)
+                (If you already have the repository on your local drive, navigate to it and skip to step 5:)
 
-    1. As always with EVERY system step 1 is to update update update! Run "sudo apt-get update" and "sudo apt-get upgrade" 
+    1. As always with EVERY system step 1 is to update update update! Run "sudo apt-get update && sudo apt-get upgrade" 
         - You can optionally add the -y flair to the upgrade command to remove the "Are you sure?" prompt. If you want to do so run "sudo apt-get upgrade -y" instead.
 
     2. You'll need to install git on your system next. Run "sudo apt-get install git"
@@ -19,10 +19,7 @@ If this is not your intention the I do not reccoment or suggest running this set
 
     4. Change to the new dns-deb directory. Run "cd dns-deb"
 
-    5. Now you'll need to make the install script executable. Run "sudo chmod +x install.sh"
-        - Don't worry about anything else, the script will take care of setting execute permissions for the other scripts in the repository.
-
-    6. Run the script! Run "sudo ./install.sh"
+    5. Run the script! Run "sudo ./install.sh"
 
 
 
@@ -33,5 +30,4 @@ sudo apt-get update && sudo apt upgrade -y
 sudo apt-get install -y git
 sudo git clone https://github.com/NotJesus172/dns-deb
 cd dns-deb
-sudo chmod +x install.sh
 sudo ./install.sh
